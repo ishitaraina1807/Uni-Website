@@ -25,7 +25,7 @@ export default function Academics() {
         <p className='text-sm text-center font-semibold mt-4'>Prof Mac Sandman</p>
         </div>
       </div>
-      <button className='rounded-lg bg-[#5252D4] text-white py-1 px-2 font-semibold'>know more</button>
+      <button className='rounded-lg bg-[#5252D4] text-white py-1 px-2 font-semibold mt-20'>know more</button>
     </div>
   )
 }
