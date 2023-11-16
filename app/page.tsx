@@ -4,7 +4,7 @@ import About from "@/components/About";
 import EventPage from "@/components/EventPage";
 import Academics from "@/components/Academics";
 import Programs from "@/components/Programs";
-// import Stories from "@/components/Stories";
+import Stories from "@/components/Stories";
 import Blogs from "@/components/Blogs";
 import Contact from "@/components/Contact";
 
@@ -18,7 +18,7 @@ export default function Page() {
       <EventPage/>
       <Academics/>
       <Programs/>
-      {/* <Stories/> */}
+      <Stories/>
       <Blogs/>
       <Contact/>
     </div>
