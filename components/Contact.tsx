@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
     return (
-        <div className='mx-52 flex mt-40 mb-10 justify-between'>
+        <div className='mx-52 lg:flex mt-40 mb-10 justify-between'>
             <div>
                 <h1 className='text-[#5252D4] text-4xl font-extrabold '>contact</h1>
                 <div className='font-semibold mt-40 leading-loose'>
@@ -11,7 +11,7 @@ export default function Contact() {
                     <p>office@laskillsacademy.com</p>
                 </div>
             </div>
-            <div className="w-[1px] h-[550px] flex-shrink-0 bg-indigo-600"></div>
+            <div className="w-[1px] h-[550px] flex-shrink-0 bg-indigo-600 lg:block hidden"></div>
             <div>
                 <h1 className='text-black text-3xl font-bold mt-10'>Tell Us About Yourself</h1>
                 <div className="flex gap-10">

@@ -7,7 +7,7 @@ import event2 from '../assets/event2.png'
 export default function EventPage() {
     return (
         <div className='lg:mx-52 mx-20 my-24'>
-        <div className='lg:flex lg:gap-20'>
+        <div className='md:flex md:gap-20'>
             <div>
                 <h1 className='text-black text-lg font-semibold uppercase mb-10'>What our faculty says</h1>
                 <div className='lg:w-[640px] lg:h-[304px] xl:w-[640px] xl:h-[304px]  w-[440px] h-[304px] flex-shrink-0 bg-[#cfcff3]'>
@@ -26,7 +26,7 @@ export default function EventPage() {
             </div>
 
             <div className='flex flex-col items-center justify-center gap-4'>
-                <h1 className='text-black text-lg font-semibold uppercase mb-10 lg:mt-0 mt-10'>Upcoming events</h1>
+                <h1 className='text-black text-lg font-semibold uppercase mb-10 md:mt-0 mt-10'>Upcoming events</h1>
                 <div className='flex gap-3 items-center'>
                     <div className="w-[96px] h-[78px] bg-red-500 text-white font-bold flex flex-col items-center justify-center">
                         <h1 className='text-4xl'>21</h1>
@@ -60,8 +60,8 @@ export default function EventPage() {
             </div>
         </div>
         <h1 className='text-black text-lg font-semibold uppercase mt-20 mb-10'>Sneak Peak at cultural events</h1>  
-        <div className="lg:flex justify-around">
-        <Image  className='mb-5 lg:mb-0' src={event1} alt="about" />
+        <div className="md:flex lg:justify-around md:justify-between">
+        <Image  className='mb-5 md:mb-0' src={event1} alt="about" />
         <Image src={event2} alt="about" />
         </div>  
         </div>

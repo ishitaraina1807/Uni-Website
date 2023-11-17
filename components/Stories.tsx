@@ -5,9 +5,9 @@ import stories2 from '../assets/stories2.svg'
 
 export default function Stories() {
     return (
-      <div className="lg:mx-52 mt-40">
+      <div className="lg:mx-52 mx-20 mt-40">
         <h1 className='text-[#5252D4] text-4xl font-extrabold '>stories</h1>
-        <div className="flex justify-around">
+        <div className="md:flex lg:justify-around md:justify-between">
 {/* story 1 */}
 <div className="flex flex-col items-center">
           <div className="bg-white rounded-full relative -mb-28 z-50">
