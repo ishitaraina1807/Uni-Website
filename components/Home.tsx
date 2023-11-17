@@ -4,9 +4,9 @@ import homeImage from '../assets/home.png';
 export default function Home() {
   return (
     <div className='lg:flex'>
-      <div style={{ position: 'relative', width: '1100px', height: '676px' }} className='lg:ml-52 ml-20 my-10'>
+      <div style={{ position: 'relative', width: '100%', height: '676px' }} className='lg:ml-52 mx-2 my-10'>
         <Image className='rounded-2xl' src={homeImage} alt="Home" layout="fill" objectFit="cover" />
-        <div style={{ position: 'absolute', top: '45%', left: '27%', transform: 'translate(-50%, -50%)', color: 'white', textAlign: 'left' }}>
+        <div className="absolute lg:top-1/2 lg:left-1/3 top-1/2 left-1/3 transform translate-x-[-50%] -translate-y-1/2 text-white text-left">
           <h1 className='text-3xl font-bold'>FOSTERING POSITIVE CHANGE</h1>
           <p className='mt-10 font-semibold'>At IE University, we seek to foster positive change <br /> through education, research, and innovation.</p>
           <div className="flex items-center mt-10">
@@ -17,7 +17,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className='flex lg:flex-col md:flex-row gap-4 items-center lg:mt-60 md:mt-20 ml-20 '>
+      <div className='flex lg:flex-col md:flex-row gap-4 items-center lg:mt-60 md:mt-20 lg:mr-20 ml-10'>
         <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
           <path d="M33.6666 16.9999C33.6666 7.79992 26.2 0.333252 17 0.333252C7.79998 0.333252 0.333313 7.79992 0.333313 16.9999C0.333313 25.0666 6.06665 31.7833 13.6666 33.3332V21.9999H10.3333V16.9999H13.6666V12.8333C13.6666 9.61658 16.2833 6.99992 19.5 6.99992H23.6666V11.9999H20.3333C19.4166 11.9999 18.6666 12.7499 18.6666 13.6666V16.9999H23.6666V21.9999H18.6666V33.5833C27.0833 32.7499 33.6666 25.6499 33.6666 16.9999Z" fill="black" />
         </svg>

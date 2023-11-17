@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
     return (
-        <div className='mx-52 lg:flex mt-40 mb-10 justify-between'>
+        <div className='lg:mx-52 mx-10 lg:flex mt-40 mb-10 justify-between'>
             <div>
                 <h1 className='text-[#5252D4] text-4xl font-extrabold '>contact</h1>
                 <div className='font-semibold mt-40 leading-loose'>

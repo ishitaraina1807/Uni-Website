@@ -6,7 +6,7 @@ import event2 from '../assets/event2.png'
 
 export default function EventPage() {
     return (
-        <div className='lg:mx-52 mx-20 my-24'>
+        <div className='lg:mx-52 mx-10 my-24'>
         <div className='md:flex md:gap-20'>
             <div>
                 <h1 className='text-black text-lg font-semibold uppercase mb-10'>What our faculty says</h1>

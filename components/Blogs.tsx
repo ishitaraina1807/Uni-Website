@@ -5,7 +5,7 @@ import blog2 from '../assets/blog2.png'
 
 export default function Blogs() {
   return (
-    <div className='lg:mx-52 mx-20 mt-40'>
+    <div className='lg:mx-52 mx-10 mt-40'>
       <h1 className='text-[#5252D4] text-4xl font-extrabold mt-10'>blogs</h1>
       <div className="lg:w-[1120px] lg:-[488px] p-10 lg:p-0 flex-shrink-0 bg-gray-200 lg:flex justify-around items-center mt-10">
         {/* blog1 */}
