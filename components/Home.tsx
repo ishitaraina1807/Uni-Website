@@ -3,8 +3,8 @@ import homeImage from '../assets/home.png';
 
 export default function Home() {
   return (
-    <div className='lg:flex'>
-      <div style={{ position: 'relative', width: '100%', height: '676px' }} className='lg:ml-52 mx-2 my-10'>
+    <div className='lg:flex '>
+      <div style={{ position: 'relative', width: '100%', height: '676px' }} className='lg:ml-52 my-10 sm:mx-0'>
         <Image className='rounded-2xl' src={homeImage} alt="Home" layout="fill" objectFit="cover" />
         <div className="absolute lg:top-1/2 lg:left-1/3 top-1/2 left-1/3 transform translate-x-[-50%] -translate-y-1/2 text-white text-left">
           <h1 className='text-3xl font-bold'>FOSTERING POSITIVE CHANGE</h1>
