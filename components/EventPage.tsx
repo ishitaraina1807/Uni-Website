@@ -6,13 +6,13 @@ import event2 from '../assets/event2.png'
 
 export default function EventPage() {
     return (
-        <div className='lg:mx-52 mx-10 my-24'>
-            <div className='md:flex md:gap-20'>
+        <div className='lg:mx-52 mx-10 my-24 xs:mx-0'>
+            <div className='lg:flex md:gap-20'>
                 <div>
                     <h1 className='text-black text-lg font-semibold uppercase mb-10'>What our faculty says</h1>
-                    <div className='flex lg:fle-row flex-col'>
+                    <div className='flex md:flex-row flex-col'>
                         <Image src={faculty} alt="about" />
-                        <div className='lg:w-[350px] lg:h-[304px] w-[290px] flex-shrink-0 bg-[#cfcff3]'>
+                        <div className='lg:w-[350px] lg:h-[304px] sm:w-[290px] xs:w-[200px] flex-shrink-0 bg-[#cfcff3]'>
                             <p className='text-black lg:mt-16 mt-4 text-lg font-semibold'>“Just one small positive thought in the morning can change your whole day".</p>
                             <div className="flex items-center">
                                 <div className="w-[64px] h-[1px] bg-black mx-1"></div>
@@ -22,7 +22,7 @@ export default function EventPage() {
                     </div>
                 </div>
 
-                <div className='flex flex-col items-center justify-center gap-4'>
+                <div className='flex flex-col lg:items-center justify-center gap-4'>
                     <h1 className='text-black text-lg font-semibold uppercase mb-10 md:mt-0 mt-10'>Upcoming events</h1>
                     <div className='flex gap-3 items-center'>
                         <div className="w-[96px] h-[78px] bg-red-500 text-white font-bold flex flex-col items-center justify-center">

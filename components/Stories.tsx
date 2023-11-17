@@ -5,7 +5,7 @@ import stories2 from '../assets/stories2.svg'
 
 export default function Stories() {
     return (
-      <div className="lg:mx-52 mx-10 mt-40">
+      <div className="lg:mx-52 mt-40 xs:mx-0">
         <h1 className='text-[#5252D4] text-4xl font-extrabold '>stories</h1>
         <div className="md:flex lg:justify-around md:justify-between">
 {/* story 1 */}
@@ -13,7 +13,7 @@ export default function Stories() {
           <div className="bg-white rounded-full relative -mb-28 z-50">
             <Image src={stories1} alt="img" />
           </div>
-          <div className="bg-gray-300 w-[384px] h-[362px] pb-8 px-8 relative pt-32">
+          <div className="bg-gray-300 w-[384px] h-[362px] xs:w-[300px] pb-8 px-8 relative pt-32">
             <div>
               <p className="text-center bt-smalltitle font-bold pb-6">Prof Mac Sandman</p>
               <p className="text-left text-lg font-normal bt-smalltext">
@@ -27,7 +27,7 @@ export default function Stories() {
           <div className="bg-white rounded-full relative -mb-28 z-50">
             <Image src={stories2} alt="img" />
           </div>
-          <div className="bg-gray-300 w-[384px] h-[362px] pb-8 px-8 relative pt-32">
+          <div className="bg-gray-300 w-[384px] h-[362px] xs:w-[300px] md:pb-8 px-8 relative pt-32">
             <div>
               <p className="text-center bt-smalltitle font-bold pb-6">Prof Mac Sandman</p>
               <p className="text-left text-lg font-normal bt-smalltext">

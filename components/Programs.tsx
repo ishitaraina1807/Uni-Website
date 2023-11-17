@@ -3,9 +3,9 @@ import React from 'react'
 export default function Programs() {
   return (
     <div>
-      <div className="lg:mx-52 mx-10">
+      <div className="lg:mx-52 mx-10 xs:mx-0">
       <h1 className='text-[#5252D4] text-4xl font-extrabold lg:mt-40 mt-20'>programs</h1>
-      <p className='mt-10 mr-40 text-black text-lg font-medium'>Lorem ipsum dolor sit amet consectetur. Eget nunc etiam morbi aliquet platea felis. Dolor consectetur fames justo vestibulum. Elit sodales nam malesuada volutpat. Fames lectus sapien vitae pellentesque at enim odio.</p>
+      <p className='mt-10 lg:mr-40 text-black text-lg font-medium'>Lorem ipsum dolor sit amet consectetur. Eget nunc etiam morbi aliquet platea felis. Dolor consectetur fames justo vestibulum. Elit sodales nam malesuada volutpat. Fames lectus sapien vitae pellentesque at enim odio.</p>
       <div className="w-full lg:w-[90%] lg:max-w-[1120px] h-auto lg:h-[552px] my-10 flex-shrink-0 rounded-lg bg-gray-300 lg:flex lg:items-stretch">
       <div className="w-full lg:w-[352px] h-auto lg:h-[552px] lg:flex-shrink-0 rounded-lg bg-[#5252D4] leading-13">
       <p className="text-white text-20 font-bold ml-4"> Courses</p>

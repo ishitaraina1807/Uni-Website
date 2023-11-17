@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
     return (
-        <div className='lg:mx-52 mx-10 lg:flex mt-40 mb-10 justify-between'>
+        <div className='lg:mx-52 mx-10 lg:flex mt-40 mb-10 justify-between xs:mx-0'>
             <div>
                 <h1 className='text-[#5252D4] text-4xl font-extrabold '>contact</h1>
                 <div className='font-semibold lg:mt-40 mt-10 leading-loose'>
@@ -17,15 +17,15 @@ export default function Contact() {
                 <div className="flex gap-10">
                     <div className='font-semibold mt-10 leading-15'>
                         <p>Name</p>
-                        <div className="w-[200px] h-[1px] flex-shrink-0 bg-indigo-600"></div>
+                        <div className="md:w-[200px] w-[100px] h-[1px] flex-shrink-0 bg-indigo-600"></div>
                         <p>Phone</p>
-                        <div className="w-[200px] h-[1px] flex-shrink-0 bg-indigo-600"></div>
+                        <div className="md:w-[200px] w-[100px] h-[1px] flex-shrink-0 bg-indigo-600"></div>
                     </div>
                     <div className='font-semibold mt-10 leading-15'>
                         <p>Email</p>
-                        <div className="w-[200px] h-[1px] flex-shrink-0 bg-indigo-600"></div>
+                        <div className="md:w-[200px] w-[100px] h-[1px] flex-shrink-0 bg-indigo-600"></div>
                         <p>Zipcode</p>
-                        <div className="w-[200px] h-[1px] flex-shrink-0 bg-indigo-600"></div>
+                        <div className="md:w-[200px] w-[100px] h-[1px] flex-shrink-0 bg-indigo-600"></div>
                     </div>
                 </div>
                 <p className='text-black text-base font-semibold mt-10'>I am interested in</p>

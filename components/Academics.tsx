@@ -6,7 +6,7 @@ import faculty3 from '../assets/faculty3.png'
 
 export default function Academics() {
   return (
-    <div className='lg:mx-52 mx-10'>
+    <div className='lg:mx-52 mx-10 xs:mx-0'>
       <h1 className='text-[#5252D4] text-4xl font-extrabold mt-10'>academics</h1>
       <p className='text-black text-lg font-bold uppercase mt-10'>Credit system</p>
       <p className='mt-4 mr-40 text-black text-lg font-medium w-full'>Lorem ipsum dolor sit amet consectetur. Eget nunc etiam morbi aliquet platea felis. Dolor consectetur fames justo vestibulum. Elit sodales nam malesuada volutpat. Fames lectus sapien vitae pellentesque at enim odio.</p>
